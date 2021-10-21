@@ -19,10 +19,10 @@
         }
     },
     "require": {
-        "php": "~7.2.*"
+        "php": ">=7.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "~8.5.*",
+        "phpunit/phpunit": "~9.5.*",
         "fzaninotto/faker": "~1.4",
         "laravel/laravel": "^8.0",
         "codeclimate/php-test-reporter": "^0.3.2",
