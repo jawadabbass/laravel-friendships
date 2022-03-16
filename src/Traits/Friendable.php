@@ -563,4 +563,8 @@ trait Friendable
         }
         return $this->friends()->where('status', $status);
     }
+    
+    public function getFriendsIdsArray($perPage = 0, $groupSlug = ''){
+        return $this->getFriendsQueryBuilder($groupSlug)->pluck('id')->toArray();
+    }
 }
